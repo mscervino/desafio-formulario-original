@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  background-color: #1f2023;
+  font-family: 'Roboto', sans-serif;
+  color: #104a4e;
+
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  display: inline-block;
+  margin: 0;
+}
+
+.formulario {
+  background-color: #a6c1b9;
+  color: #104a4e;
+  width: 56%;
+  margin: 0 auto 30px;
+  padding: 19px;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+legend {
+  background-color: #2d3d37;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #feffe0;
+}
+
+.campo {
+  margin-bottom: 15px;
+  margin-right: 90px;
+  margin-left: 90px;
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+input[type='text'],
+input[type='email'],
+textarea,
+select {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #fff;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+input[type='checkbox'],
+input[type='radio'] {
+  margin: 0 5px;
+  vertical-align: middle;
+}
+
+.opciones {
+  text-align: left;
+}
+
+.opciones label {
+  display: inline-block;
+}
+
+footer {
+  text-align: center;
+}
+
+button {
+  background-color: #2b3d37;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #104a4e;
+}
+
+.opciones label {
+  background-color: transparent;
+}
+
+.campo:last-child {
+  text-align: center;
+  margin-top: 15px;
+}
+fieldset {
+  margin-top: -45px;
+  margin-bottom: -22px;
+  margin-left: -20px;
+  margin-right: -18px;
+  border-radius: 5px;
+  border-color: transparent;
+}
+.campo1 {
+  color: white;
+}
+
+.linea-circulos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.circulo {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.trapecio {
+  width: 57%;
+  height: 0px;
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
+  border-bottom: 15px solid #4d6d63;
+  margin: auto;
+}
+
+.trapecio1 {
+  width: 57%;
+  height: 0px;
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
+  border-top: 15px solid #4d6d63;
+  margin: auto;
+}
+#telefono {
+  text-align: right;
+}
+
+#email {
+  text-align: right;
+}
+
+.sede {
+  background-color: transparent;
+  color: #03013c;
+}
+
+.sepa {
+  display: inline-flex;
+}
+
+.formcheck {
+  background-color: #1f2023;
+  color: white;
+  width: 56%;
+  margin: 0 auto 30px;
+  padding: 18px;
+  margin-top: 40px;
+}
+
+.formcheck label {
+  text-align: left;
+}
+.backsexo {
+  background-color: transparent;
+  color: #104a4e;
+}
+.opcionessexo {
+  display: inline-flex;
+  margin-bottom: 20px;
+}
+.campomail {
+  padding: 20px 90px 15px;
+}
+.bordefinal {
+  border-color: transparent;
+}
+.campo4 {
+  border: transparent;
+  margin-top: 10px;
+  display: inline-flex;
+  text-align: center;
+  margin-left: 233px;
+}
+
+h5 {
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.campo select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 96%;
+  font-size: 12px;
+  color: #333;
+}
+
+.campo select option[value=''][disabled] {
+  color: gray;
+}
+
+.campo input:focus,
+.campo select:focus,
+.campo textarea:focus,
+#email:focus {
+  border-color: #4d6d63;
+  outline: none;
+  background-color: #4d6d63;
+  color: #fff;
+}
+
+h5 {
+  text-transform: initial;
+  font-variant: small-caps;
+}

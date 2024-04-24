@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+  </head>
+  <body>
+    <header>
+      <div class="trapecio1"></div>
+      <h1>Vení al Gym! 💪</h1>
+      <div class="trapecio"></div>
+    </header>
+
+    <section class="formulario">
+      <fieldset>
+        <legend> <h5>🙋‍♂️ Datos Personales 👀</h5></legend>
+        <form>
+          <div class="campo">
+            <label for="nombre">Nombre*</label>
+            <input type="text" id="nombre" required>
+          </div>
+          <div class="campo">
+            <label for="apellido">Apellido*</label>
+            <input type="text" id="apellido" required>
+          </div>
+          <div class="campo">
+            <label for="documento">Documento*</label>
+            <input type="text" id="documento" required>
+          </div>
+          <div class="campo">
+            <label for="nacionalidad">Nacionalidad*</label>
+            <select id="nacionalidad" required>
+              <option value="" disabled selected>-Seleccionar-</option>
+              <option value="argentina">Argentina</option>
+              <option value="brasil">Brasil</option>
+              <option value="uruguay">Uruguay</option>
+            </select>
+          </div>
+          <div class="campo">
+            <label for="comentario">Contanos un poco de vos ...</label>
+            <textarea id="comentario" rows="10" cols="50"></textarea>
+          </div>
+
+
+<fieldset class="campo4">
+    <legend class="backsexo">Sexo*</legend>
+    <div class="opcionessexo">
+        <label><input type="radio" name="sexo" required>Femenino</label>
+        <label><input type="radio" name="sexo">Masculino</label>
+        <label><input type="radio" name="sexo">Otro</label>
+    </div>
+</fieldset>
+          
+        </form>
+      </fieldset>
+    </section>
+
+    <div class="linea-circulos">
+      <div class="circulo amarillo"></div>
+      <div class="circulo amarillo"></div>
+      <div class="circulo amarillo"></div>
+      <div class="circulo amarillo"></div>
+      <div class="circulo amarillo"></div>
+      <div class="circulo amarillo"></div>
+      <div class="circulo amarillo"></div>
+      <div class="circulo amarillo"></div>
+      <div class="circulo amarillo"></div>
+      <div class="circulo amarillo"></div>
+      <div class="circulo amarillo"></div>
+    </div>
+
+    <section class="formulario">
+      <fieldset>
+        <legend><h5> 📱 Datos de Contacto  📧</h5></legend>
+        <form>
+          <div class="campo">
+            <label for="telefono">Teléfono</label>
+            <input
+              type="text"
+              id="telefono"
+              placeholder="Código de área y número">
+          </div>
+          <div class="campomail">
+            <label for="email">Dirección de correo electrónico</label>
+            <input type="email" id="email" placeholder="Ej. mail@gmail.com">
+          </div>
+        </form>
+      </fieldset>
+    </section>
+
+    <div class="linea-circulos">
+      <div class="circulo amarillo"></div>
+      <div class="circulo amarillo"></div>
+      <div class="circulo amarillo"></div>
+      <div class="circulo amarillo"></div>
+      <div class="circulo amarillo"></div>
+      <div class="circulo amarillo"></div>
+      <div class="circulo amarillo"></div>
+      <div class="circulo amarillo"></div>
+      <div class="circulo amarillo"></div>
+      <div class="circulo amarillo"></div>
+      <div class="circulo amarillo"></div>
+    </div>
+
+    <section class="formulario">
+      <fieldset>
+        <legend><h5>🚴🏻 Actividades 🤸‍♂️</h5></legend>
+        <form>
+          <p>Por favor, indicá cuales actividades te interesan</p>
+
+          <p>Sede Palermo</p>
+          <div class="sepa">
+            <label><input type="checkbox">Basquet</label>
+            <label><input type="checkbox">Boxeo</label>
+            <label><input type="checkbox">Fútbol</label>
+            <label><input type="checkbox">Tenis</label>
+          </div>
+
+          <p>Sede Rosario</p>
+          <div class="sepa">
+            <label><input type="checkbox">Basquet</label>
+            <label><input type="checkbox">Futbol</label>
+            <label><input type="checkbox">Rugby</label>
+            <label><input type="checkbox">Voley</label>
+          </div>
+        </form>
+      </fieldset>
+    </section>
+
+    <div class="formcheck">
+      <fieldset class="bordefinal">
+        <label
+          ><input type="checkbox" required>Acepto las condiciones *</label
+        >
+        <label><input type="checkbox">Deseo recibir novedades</label>
+        <p>* Campo obligatorio</p>
+      </fieldset>
+    </div>
+
+    <footer>
+      <button class="inicio">Inicio Afiliación</button>
+      <button class="restablecer">Restablecer</button>
+    </footer>
+
+
+  <script type="module" src="/main.js"></script>
+</html>
